@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Velocidade Média</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Velocidade Média</h1>
+    <form id="travelForm">
+        <label for="distance">Distância (km):</label>
+        <input type="number" id="distance" name="distance" required>
+        <br>
+        <label for="duration">Duração (minutos):</label>
+        <input type="number" id="duration" name="duration" required>
+        <br>
+        <button type="submit">Calcular</button>
+    </form>
+    <div id="result"></div>
+
+    <script src="../Model/Model.js"></script>
+    <script src="../Controller/Controler.js"></script>
+</body>
+</html>
